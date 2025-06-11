@@ -35,9 +35,9 @@ if(isset($_POST["syarif"])){
     <main>
         <form action="signup.php" method="POST">
             <label for="">Username</label>
-            <input type="text" name="username" placeholder="username">
+            <input type="text" name="username" placeholder="username" required>
             <label for="">Password</label>
-            <input type="password" name="password" placeholder="password">
+            <input type="password" name="password" placeholder="password" required>
             <button type="submit" name="syarif">Kirim</button>
         </form>
     </main>
