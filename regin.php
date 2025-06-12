@@ -32,7 +32,7 @@ if(isset($_POST["login"])) {
         $_SESSION["username"] = $data["username"];
         $_SESSION["password"] = $data["password"];
         $_SESSION["is_login"] = "users" ;
-        header("location: index.php");
+        header("location: index.html");
     }else{
         echo "gagal";
     }
